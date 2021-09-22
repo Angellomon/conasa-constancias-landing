@@ -30,5 +30,6 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: flex-end;
+		margin-bottom: 2%;
 	}
 </style>
