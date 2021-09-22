@@ -8,4 +8,11 @@
 		float: right;
 		margin-left: -22px;
 	}
+
+	@media screen and (min-width: 1900px) {
+		img {
+			max-width: 30px;
+			margin-left: -33px;
+		}
+	}
 </style>

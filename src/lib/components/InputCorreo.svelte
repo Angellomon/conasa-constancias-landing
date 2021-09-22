@@ -102,4 +102,20 @@
 	p.invalid-email {
 		color: tomato;
 	}
+
+	@media screen and (min-width: 1900px) {
+		label {
+			text-align: center;
+			font-family: 'Myriad Bold';
+			font-size: 45px;
+			margin-bottom: 3%;
+			margin-top: 1%;
+		}
+
+		input {
+			margin-top: 1.5em;
+			height: 40px;
+			font-size: 30px;
+		}
+	}
 </style>

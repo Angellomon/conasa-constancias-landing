@@ -31,4 +31,15 @@
 		max-width: 200px;
 		margin-top: -5px;
 	}
+
+	@media screen and (min-width: 1900px) {
+		h1 {
+			font-size: 80px;
+			margin-top: 6%;
+		}
+		img {
+			max-width: 350px;
+			margin-top: 0;
+		}
+	}
 </style>
