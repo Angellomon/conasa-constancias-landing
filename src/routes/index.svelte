@@ -53,6 +53,8 @@
 	}
 
 	button {
+		padding-left: 5px;
+		padding-right: 5px;
 		border: none;
 		border-radius: 0.4em;
 		height: 50px;
@@ -70,5 +72,24 @@
 	a {
 		text-decoration: none;
 		color: white;
+	}
+
+	@media screen and (min-width: 1900px) {
+		button {
+			height: 75px;
+			font-size: 45px;
+		}
+
+		img {
+			max-width: 350px;
+		}
+
+		p {
+			font-size: 45px;
+		}
+
+		div.mensaje {
+			max-width: 400px;
+		}
 	}
 </style>
