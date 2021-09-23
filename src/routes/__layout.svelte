@@ -16,15 +16,15 @@
 <style>
 	@font-face {
 		font-family: 'Myriad Regular';
-		src: url('fonts/myriad-pro-regular.ttf');
+		src: url('/fonts/myriad-pro-regular.ttf');
 	}
 	@font-face {
 		font-family: 'Myriad Italic';
-		src: url('fonts/myriad-pro-italic.ttf');
+		src: url('/fonts/myriad-pro-italic.ttf');
 	}
 	@font-face {
 		font-family: 'Myriad Bold';
-		src: url('fonts/myriad-pro-bold.ttf');
+		src: url('/fonts/myriad-pro-bold.ttf');
 	}
 
 	:root {
