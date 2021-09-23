@@ -1,3 +1,7 @@
+<script>
+	import { fly } from 'svelte/transition';
+</script>
+
 <div>
 	<p>
 		Si tienes dudas envía un correo a <a href="mailto:coordinacion.general@conasamexico.org"
