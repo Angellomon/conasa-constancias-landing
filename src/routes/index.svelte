@@ -1,49 +1,22 @@
 <script>
+	import Header from '$lib/components/headers/Principal.svelte';
 	const LOGO_SRC = '/images/logos/conasa.png';
 </script>
 
 <section>
-	<figure>
-		<img src={LOGO_SRC} alt="conasa" />
-	</figure>
+	<Header />
 
-	<h1>CONSTANCIAS</h1>
-
-	<div class="mensaje"><p>"Salud Animal: elemento estratégico en la salud alimentaria"</p></div>
+	<div class="participantes">
+		<button><a href="/participantes">PARTICIPANTES</a></button>
+	</div>
 </section>
 
-<div class="participantes">
-	<button><a href="/participantes">PARTICIPANTES</a></button>
-</div>
-
 <style>
-	img {
-		max-width: 130px;
-	}
 	section {
 		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
-		align-items: center;
-		margin: 0;
 	}
-
-	h1 {
-		font-family: 'Myriad Bold';
-		font-size: 70px;
-		text-align: center;
-	}
-
-	p {
-		font-family: 'Myriad Italic';
-		color: #f5e18d;
-		font-size: 20px;
-		text-align: center;
-	}
-
-	div.mensaje {
-		max-width: 170px;
-	}
-
 	div.participantes {
 		display: flex;
 		justify-content: center;
@@ -78,18 +51,6 @@
 		button {
 			height: 75px;
 			font-size: 45px;
-		}
-
-		img {
-			max-width: 350px;
-		}
-
-		p {
-			font-size: 45px;
-		}
-
-		div.mensaje {
-			max-width: 400px;
 		}
 	}
 </style>
