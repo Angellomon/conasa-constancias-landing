@@ -46,7 +46,9 @@
 	{:else if $downloadError}
 		<p class="invalid-email">No se ha encontrado tu correo</p>
 	{:else}
-		<p class="mensaje">Ingresa el correo electróneco con el cual te registraste</p>
+		<p class="mensaje">
+			Ingresa el correo electrónico con el cual te registraste a la 29° Reunión Anual CONASA
+		</p>
 	{/if}
 </label>
 
