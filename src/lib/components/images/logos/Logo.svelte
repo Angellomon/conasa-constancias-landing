@@ -12,7 +12,20 @@
 		max-width: 200px;
 	}
 	img {
-		width: auto;
-		height: 80px;
+		max-width: 30vw;
+		height: auto;
+	}
+
+	@media screen and (max-width: 890px) {
+		img {
+			width: 15vw;
+		}
+	}
+
+	@media screen and (max-width: 420px) {
+		img {
+			max-width: 50vw;
+			width: 90vw;
+		}
 	}
 </style>
