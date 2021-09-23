@@ -34,7 +34,7 @@
 
 	@media screen and (min-width: 1900px) {
 		h1 {
-			font-size: 80px;
+			font-size: 100px;
 			margin-top: 6%;
 		}
 		img {
