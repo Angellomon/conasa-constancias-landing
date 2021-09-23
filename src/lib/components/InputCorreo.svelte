@@ -57,7 +57,7 @@
 		text-align: center;
 		font-family: 'Myriad Bold';
 		font-size: 20px;
-		margin-bottom: 10%;
+		margin-bottom: 1vh;
 		margin-top: 1%;
 	}
 
