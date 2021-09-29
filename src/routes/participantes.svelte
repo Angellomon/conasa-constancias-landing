@@ -2,7 +2,7 @@
 	import Help from '$lib/components/Help.svelte';
 	import InputCorreo from '$lib/components/InputCorreo.svelte';
 
-	const LOGO_SRC = '/images/logos/conasa.png';
+	const LOGO_SRC = '/images/logos/conasa-correo.png';
 </script>
 
 <section>
