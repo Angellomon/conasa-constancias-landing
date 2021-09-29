@@ -58,7 +58,7 @@
 		font-family: 'Myriad Bold';
 		font-size: 20px;
 		margin-bottom: 1vh;
-		margin-top: 1%;
+		margin-top: -1vh;
 	}
 
 	input {
@@ -111,7 +111,6 @@
 			font-family: 'Myriad Bold';
 			font-size: 45px;
 			margin-bottom: 3%;
-			margin-top: 1%;
 		}
 
 		input {
