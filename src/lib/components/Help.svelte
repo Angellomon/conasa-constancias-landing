@@ -15,7 +15,7 @@
 		background-color: #836019;
 		border-radius: 10px;
 
-		max-width: 30vw;
+		max-width: 35vw;
 		padding-top: 0;
 		align-self: flex-end;
 		margin-right: 5vw;
@@ -43,6 +43,12 @@
 
 		p {
 			font-size: 35px;
+		}
+	}
+
+	@media screen and (max-width: 1400px) {
+		div {
+			max-width: 30vw;
 		}
 	}
 
