@@ -35,6 +35,9 @@
 		color: white;
 		text-decoration: none;
 	}
+	a:hover {
+		text-decoration: underline;
+	}
 
 	@media screen and (min-width: 1900px) {
 		div {
